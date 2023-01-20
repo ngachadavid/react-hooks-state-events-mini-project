@@ -21,7 +21,6 @@ function NewTaskForm({onTaskFormSubmit, categories}) {
           <option key={cat}>{cat}
           </option>
         ))}
-          {/* render <option> elements for each category here */}
         </select>
       </label>
       <input type="submit" value="Add task" />
